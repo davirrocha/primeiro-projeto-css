@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin: 45px 0px 100px 42px;
+}
+
+.link-header {
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: #17233D;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.button-singup {
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    border-radius: 10px;
+    background: #6FBF44;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.img-logo {
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+
+}
+
+.box-text {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    height: 164px;
+}
+
+p {
+    width: 493px;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-learnmore {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 560px) {
+
+
+    .link-header {
+        display: none;
+    }
+
+
+    .button-singup {
+        width: 91px;
+        height: 31px;
+        margin: auto;
+        display: block;
+        font-size: 12;
+        line-height: 18px;
+
+    }
+
+    .sing-up {
+       position: absolute;
+       top: 25px;
+       right: 5px;
+        
+    }
+
+    .box-text {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        width: auto;
+        height: 30px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin: 0;
+    }
+
+
+    p {
+        width: auto;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .link-learnmore {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .img-logo {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: static;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    img {
+        position: absolute;
+        top: 480px;
+        left: 23px;
+        max-width: 85%;
+
+
+
+    }
+
+
+
+
+}
